@@ -1,0 +1,277 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    color: #EBF4F6;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.wrapper-menu {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'open-sans', sans-serif;
+    float: left;
+    color: #071952;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #37B7C3;
+    z-index: 99;
+    border-bottom: 2px solid #088395;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #071952;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: #088395;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    color: #088395;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    padding-top: 80px;
+    margin-top: -80px;
+    scroll-margin-top: 30px;
+}
+
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'poppins', sans-serif;
+    color: #088395;
+}
+
+.tbl-biru { 
+    background: #071952;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 10px 18px 10px 18px;
+    color: #37B7C3;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #071952; 
+}
+
+.tbl-biru:hover {
+    background: transparent;
+    color: #071952;
+    text-decoration: none;
+}
+
+.tbl-pink { 
+    background: transparent;
+    border: 2px solid #088395;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #088395;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tbl-pink:hover { 
+    background: #088395;
+    color: #EBF4F6;
+    text-decoration: none;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 130px;
+    border-radius: 50%;
+}
+
+#contact {
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+h3 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 800;
+    font-style: 30px;
+    margin-bottom: 20px;
+    color: #088395;
+    width: 100%;
+    line-height: 20px;
+    text-align: center;
+}
+
+.footer p {
+    text-align: center;
+    color: #088395;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px; 
+    color: #088395;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+}
